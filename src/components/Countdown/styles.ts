@@ -32,7 +32,7 @@ export const Container = styled.div`
 
     font-family: Rajdhani;
     font-size: 12rem;
-    color: var(--blue-900);
+    color: var(--gray-100);
 
     > div {
         display: flex;
@@ -41,8 +41,7 @@ export const Container = styled.div`
         justify-content: space-evenly;
         flex: 1;
 
-        background: var(--gray-100);
-        box-shadow: 0 0 0.5rem var(--gray-800);
+        background: var(--gray-850);
         border-radius: 0.5rem;
     }
 
@@ -51,15 +50,16 @@ export const Container = styled.div`
     }
 
     > div span:first-child {
-        border-right: 1px solid var(--gray-200);
+        border-right: 1px solid var(--gray-700);
     }
 
     > div span:last-child {
-        border-left: 1px solid var(--gray-200);
+        border-left: 1px solid var(--gray-700);
     }
 
     > span {
         font-size: 8rem;
+        color: #83848A;
         margin-inline: 0.8rem;
     }
 `
