@@ -47,4 +47,4 @@ Faça o clone do repositório para ter uma versão do projeto em sua máquina:<b
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
 ## 📝 Licença
-Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/move-it/blob/main/LICENSE). 
+Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/move-it/blob/main/license). 
