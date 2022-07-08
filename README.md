@@ -1,9 +1,5 @@
 <h1 align="center">
-<<<<<<< HEAD
   <img alt="move.it" title="move.it" src="./logo.png" />
-=======
-  <img alt="move.it" title="move.it" src="logo.png" />
->>>>>>> 95e2e0fb21dafcfd7ad10ffc67d399f4dddd7719
 </h1>
 
 <p align="center">
@@ -15,11 +11,7 @@
 <br>
 
 <p align="center">
-<<<<<<< HEAD
-  <img alt="Happy" src="./cover.png" width="80%">
-=======
-  <img alt="Happy" src="cover.png" width="80%">
->>>>>>> 95e2e0fb21dafcfd7ad10ffc67d399f4dddd7719
+  <img alt="Happy" src="cover.png" width="90%">
 </p>
 
 ## 💻 Projeto
@@ -51,7 +43,8 @@ Faça o clone do repositório para ter uma versão do projeto em sua máquina:<b
 
 ### 🚀 Iniciar o projeto
 `$ npm run dev ou yarn dev`
+<br />
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
 ## 📝 Licença
-Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/ignite-stmoney/blob/main/LICENSE). 
+Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/move-it/blob/main/LICENSE). 
