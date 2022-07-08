@@ -3,27 +3,44 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     button {
         width: 100%;
-        height: 6rem;
+        height: 5.5rem;
         margin-top: 3rem;
         border: 0;
         border-radius: 0.5rem;
 
         background-color: var(--blue-300);
         color: var(--gray-200);
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 600;
 
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 0.4rem;
+        gap: 0.8rem;
 
         transition: background 0.2s;
 
-        :hover {
+        :not(:disabled):hover {
             background: var(--blue-500);
         }
-}
+
+        :disabled {
+            background-color: var(--gray-800);
+            cursor: not-allowed;
+
+            gap: 1.2rem;
+        }
+    }
+
+    .countdownButtonActive {
+        background-color: var(--gray-850);
+        gap: 1.4rem;
+    }
+
+    .countdownButtonActive:not(:disabled):hover {
+        background-color: var(--red-400);
+    }
+
 `
 
 export const Container = styled.div`

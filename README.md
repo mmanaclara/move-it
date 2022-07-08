@@ -1,14 +1,6 @@
 <h1 align="center">
-  <img alt="move.it" title="move.it" src=".github/logo.png" />
+  <img alt="move.it" title="move.it" src="./logo.png" />
 </h1>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
@@ -19,8 +11,12 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/moveit.png" width="80%">
+  <img alt="Happy" src="./cover.png" width="80%">
 </p>
+
+## 💻 Projeto
+
+O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
 
 ## ✨ Tecnologias
 
@@ -30,9 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 💻 Projeto
-
-O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
+## 📖 Conhecimento
+Com o move.it, utilizei:
+- `Typescript` para adicionar tipagens ao JavaScript;
+- `styled-components` para que a estilização seja restrita a cada componente;
+- `contextos` para compartilhar os dados dos desafios entre componentes.
 
 ## Utilização do projeto
 

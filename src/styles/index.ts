@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
         height: 100vh;
-        max-width: 992px;
+        max-width: 900px;
 
         margin-inline: auto;
         padding: 4rem 2rem;
@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 
 export const Container = styled.section`
     margin-block: 6rem;
+    padding-block: 2rem;
     
     display: grid;
     grid-template-columns: 1fr 1fr;

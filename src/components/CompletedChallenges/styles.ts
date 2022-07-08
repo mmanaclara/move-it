@@ -13,10 +13,10 @@ export const Container = styled.div`
     font-weight: 500;
 
     span:first-child {
-        font-size: 1.8rem;
+        font-size: 1.65rem;
     }
 
     span:last-child {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 `

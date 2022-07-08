@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.8rem;
 
     img {
         width: 7.2rem;
@@ -11,21 +11,21 @@ export const Container = styled.div`
     }
 
     .profileContainer {
-        margin-left: 2rem;
+        margin-left: 1.8rem;
     }
 
     .profileContainer strong {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-size: 600;
     }
 
     .profileContainer > div {
         margin-top: 1rem;
         display: flex;
-        gap: 0.8rem;
+        gap: 0.75rem;
     }
 
     .profileContainer p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 `

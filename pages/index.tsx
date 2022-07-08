@@ -1,9 +1,10 @@
+import Head from 'next/head';
+
 import { CompletedChallenges } from '../src/components/CompletedChallenges';
 import { Countdown } from '../src/components/Countdown';
 import { ExperienceBar } from '../src/components/ExperienceBar';
 import { Profile } from '../src/components/Profile';
-
-import Head from 'next/head';
+import { ChallengeBox } from '../src/components/ChallengeBox';
 
 import { Wrapper, Container } from '../src/styles';
 
@@ -23,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className="leftContainer">
-          Right Container
+          <ChallengeBox />
         </div>
       </Container>
     </Wrapper>

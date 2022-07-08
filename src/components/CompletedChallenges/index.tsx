@@ -4,7 +4,7 @@ export function CompletedChallenges() {
   return (
     <Container>
         <span>Desafios completos</span>
-        <span>05</span>
+        <span>00</span>
     </Container>
   )
 }
