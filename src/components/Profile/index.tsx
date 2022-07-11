@@ -1,8 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { useContext } from "react";
+import { ChallengesContext } from "../../contexts/ChallengeContext";
 import { Container } from "./styles";
 
 export function Profile() {
+    const { level } = useContext(ChallengesContext);
+
     return (
         <Container>
             <img 
@@ -21,7 +25,7 @@ export function Profile() {
                         <path d="M3.50056 9.44975H0.700363C0.313332 9.44975 0.000488281 9.12442 0.000488281 8.72195C0.000488281 8.31947 0.313332 7.99414 0.700363 7.99414H3.50056C3.88759 7.99414 4.20043 8.31947 4.20043 8.72195C4.20043 9.12442 3.88759 9.44975 3.50056 9.44975Z" fill="#DCDDE0"/>
                         <path d="M13.3001 9.44975H10.4992C10.1122 9.44975 9.79932 9.12442 9.79932 8.72195C9.79932 8.31947 10.1122 7.99414 10.4992 7.99414H13.3001C13.6871 7.99414 14 8.31947 14 8.72195C14 9.12442 13.6871 9.44975 13.3001 9.44975Z" fill="#DCDDE0"/>
                     </svg>
-                    <p>Nível 1</p>
+                    <p>Nível {level}</p>
                 </div>
             </div>
         </Container>
