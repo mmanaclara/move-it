@@ -11,8 +11,12 @@
 <br>
 
 <p align="center">
+<<<<<<< HEAD
   <img alt="Happy" src="./cover.png" width="80%">
   <img alt="Happy" src="cover.png" width="80%">
+=======
+  <img alt="Happy" src="cover.png" width="90%">
+>>>>>>> 38360288534c249314f3f08fe7e46fe9572644aa
 </p>
 
 ## 💻 Projeto
@@ -44,7 +48,8 @@ Faça o clone do repositório para ter uma versão do projeto em sua máquina:<b
 
 ### 🚀 Iniciar o projeto
 `$ npm run dev ou yarn dev`
+<br />
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
 ## 📝 Licença
-Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/ignite-stmoney/blob/main/LICENSE). 
+Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/move-it/blob/main/license). 
