@@ -11,12 +11,7 @@
 <br>
 
 <p align="center">
-<<<<<<< HEAD
   <img alt="Happy" src="./cover.png" width="80%">
-  <img alt="Happy" src="cover.png" width="80%">
-=======
-  <img alt="Happy" src="cover.png" width="90%">
->>>>>>> 38360288534c249314f3f08fe7e46fe9572644aa
 </p>
 
 ## 💻 Projeto
