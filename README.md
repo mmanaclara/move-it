@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="./cover.png" width="80%">
+  <img alt="Happy" src="./cover.png" width="100%">
 </p>
 
 ## 💻 Projeto
@@ -25,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [JS Cookie](https://www.npmjs.com/package/js-cookie)
 
 ## 📖 Conhecimento
 Com o move.it, utilizei:
