@@ -86,6 +86,11 @@ export const ChallengeActive = styled.div`
 `
 
 export const ChallengeNotActive = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     p {
         font-size: 2rem;
         margin-bottom: 4.5rem;

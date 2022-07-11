@@ -4,6 +4,7 @@ export const Container = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-block: 4.5rem 0.5rem;
 
     span {
         font-size: 1.4rem;
